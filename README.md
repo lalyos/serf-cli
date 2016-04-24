@@ -1,5 +1,6 @@
 This repo collects my play with [serf](http://serfdom.io)'s protocol.
-It might end with a java cli library ...
+A bash serf client was born first, just to learn msgpack, and serf protocol, in the lowest level possible.
+That a java POC created to get serf members, it might be enhanced to a proper java library ...
 
 ## Install serf
 
