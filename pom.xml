@@ -42,6 +42,17 @@
           </archive>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <configuration>
+          <mainClass>com.sequenceiq.serf.App</mainClass>
+          <arguments>
+            <argument>argument1</argument>
+          </arguments>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
